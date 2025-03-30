@@ -226,49 +226,37 @@ figcaption {
 
 footer {
     background-color: #333;
-    /* Fondo oscuro */
     color: #fff;
-    /* Texto blanco */
     padding: 20px 40px;
     width: 100%;
 }
 
 .footer-content {
     display: flex;
-    /* Flexbox para distribuir las tres secciones */
     justify-content: space-between;
-    /* Espacio entre los elementos */
     align-items: center;
-    /* Centra los elementos verticalmente */
     width: 100%;
 }
 
 .empty {
     flex: 0.6;
-    /* Toma todo el espacio disponible */
 }
 
 .text {
     flex: 1;
     display: flex;
     justify-content: flex-start;
-    /* Centra el texto en el medio */
 }
 
 .sociallinks {
     display: flex;
-    /* Flexbox para alinear las imágenes horizontalmente */
     gap: 15px;
-    /* Espacio entre las imágenes */
     justify-content: flex-end;
-    /* Alinea las imágenes a la derecha */
 }
 
 .sociallinks a img {
     width: 40px;
-    /* Flexbox para alinear las imágenes de forma horizontal */
     height: 40px;
-    /* Espacio entre las imágenes */
     transition: transform 0.3s ease;
-    /* Empuja las imágenes a la derecha */
+
 }
