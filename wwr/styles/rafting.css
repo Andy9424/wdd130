@@ -1,3 +1,43 @@
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+}
+
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navigation li {
+    flex: 1 1 auto;
+}
+
+.navigation a {
+    display: block;
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
 :root {
 
     --primary-color: #4A412A;
@@ -5,22 +45,29 @@
     --accent1-color: #B9D9EB;
     --accent2-color: #FFAF00;
 }
+
 .roboto {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: italic;
     font-variation-settings:
-      "wdth" 100;
-  }
+        "wdth" 100;
+}
+
 .open-sans {
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Merriweather', serif;
 }
 
@@ -29,13 +76,13 @@ h1 {
 }
 
 h2 {
-    color:#00416A;
+    color: #00416A;
 }
 
 p {
     color: #B9D9EB;
 }
- 
+
 .sociallinks a {
     text-decoration: none;
 }
@@ -70,6 +117,19 @@ p {
     width: 80%;
 }
 
+body {
+    font-family: Acme, Arial, sans-serfi;
+}
+
+article {
+    margin: 1em auto;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1em;
+    background-color: #4A412A;
+    width: min(600px, 100%);
+    font-size: 1.2rem;
+}
+
 .hero article img {
     position: absolute;
     float: right;
@@ -79,5 +139,136 @@ p {
     height: auto;
 }
 
+.history {
+    padding: 40px 10%;
+    background-color: #f4f4f4;
+}
 
+.history-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
 
+.history-text {
+    flex: 1;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.history-center {
+    text-align: center;
+}
+
+.history-center h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.history-center img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.adventure {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+}
+
+.adventure h2 {
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.adventure-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    /* Fondo oscuro */
+    color: #fff;
+    /* Texto blanco */
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    /* Flexbox para distribuir las tres secciones */
+    justify-content: space-between;
+    /* Espacio entre los elementos */
+    align-items: center;
+    /* Centra los elementos verticalmente */
+    width: 100%;
+}
+
+.empty {
+    flex: 0.6;
+    /* Toma todo el espacio disponible */
+}
+
+.text {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    /* Centra el texto en el medio */
+}
+
+.sociallinks {
+    display: flex;
+    /* Flexbox para alinear las imágenes horizontalmente */
+    gap: 15px;
+    /* Espacio entre las imágenes */
+    justify-content: flex-end;
+    /* Alinea las imágenes a la derecha */
+}
+
+.sociallinks a img {
+    width: 40px;
+    /* Flexbox para alinear las imágenes de forma horizontal */
+    height: 40px;
+    /* Espacio entre las imágenes */
+    transition: transform 0.3s ease;
+    /* Empuja las imágenes a la derecha */
+}
