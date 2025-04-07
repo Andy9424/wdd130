@@ -314,28 +314,27 @@ footer {
     z-index: 10;
 }
 .team{
-display: grid; /* Usamos grid para organizar las imágenes en columnas */
-grid-template-columns: repeat(3, 1fr); /* Crea tres columnas de igual tamaño */
-gap: 20px; /* Espacio entre las imágenes */
+display: grid; 
+grid-template-columns: repeat(3, 1fr); 
+gap: 20px; 
 padding: 20px;
-text-align: center; /* Centra los subtítulos debajo de las imágenes */
+text-align: center; 
 }
 
 .empleado {
     display: flex;
-    flex-direction: column; /* Organiza imagen y subtítulo en columna */
-    align-items: center; /* Centra la imagen y subtítulo */
+    flex-direction: column; 
+    align-items: center; 
 }
 
-.empleado img {
-    width: 150px; /* Ajusta el tamaño de las imágenes */
+.employee img {
+    width: 150px; 
     height: 150px;
-    object-fit: cover; /* Asegura que la imagen cubra el área asignada sin distorsionarse */
-    border-radius: 8px; /* Bordes redondeados */
-}
+    object-fit: cover; 
+    border-radius: 8px; 
 
-.empleado p {
-    margin-top: 10px; /* Espacio entre la imagen y el subtítulo */
+.employee p {
+    margin-top: 10px; 
     font-size: 14px;
     font-weight: bold;
     color: #4A412A;
@@ -343,8 +342,8 @@ text-align: center; /* Centra los subtítulos debajo de las imágenes */
 
 .contact_form{
     display: flex;
-    flex-direction: column; /* Organiza imagen y subtítulo en columna */
-    align-items: center; /* Centra la imagen y subtítulo */   
+    flex-direction: column; 
+    align-items: center;    
 }
 .contact_form {
     max-width: 500px;
