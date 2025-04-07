@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anderson's wdd130 Rafting Page Contact Us">
+    <meta name="author" content="Anderson Angulo">
+    <title>Rapid Rafting Company Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo-box">
+            <img src="images/Logo.jpeg" alt="Logo" width="75" height="75">
+        </div>
+        <h1>Rapids Rafting Company</h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="indexhtml">Home</a></li>
+                <li><a href="abouthtml">About Us</a></li>
+                <li><a href="tripshtml">Trips</a></li>
+                <li><a href="contacthtml">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="company_information">
+            
+            <div class="paragraph">
+                <h1> Contact Us</h1>
+                <p><strong>Address:</strong> Road 28 # 8-30 S, San Agustin, Colombia</p>
+                <p><strong>Phone number(s):</strong> +593 099 294 4637, +57  8 873 15 88</p>
+                <p><strong>Email:</strong>  <a href="rapidraftingcontact@gmail.com:">rapidraftingcontact@gmail.com </a></p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15950.66457109873!2d-76.27411783132423!3d1.8820001102246975!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1744037941766!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="team">
+            <h2>Our Team</h2>
+            <div class="empleado">
+                <img src="images/worker1.webp" alt="Empleado 1">
+                <p><strong>Juan Pérez</strong><br>Gerente General</p>
+            </div>
+            <div class="empleado">
+                <img src="images/worker2.webp" alt="Empleado 2">
+                <p><strong>Laura Gómez</strong><br>Responsable de Marketing</p>
+            </div>
+            <div class="empleado">
+                <img src="images/worker3.webp" alt="Empleado 3">
+                <p><strong>Carlos Ruiz</strong><br>Soporte Técnico</p>
+            </div>
+        </section>
+        <section class="contact_form">
+            <h2>Send us a message</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <label for="purpose">Purpose of the message:</label>
+                
+                <div class="opcions">
+                    <label><input type="radio" name="purpose" value="General Inquiry" required> Consulta General</label>
+                    <label><input type="radio" name="purpose" value="Reservation Question" required> Pregunta de Reserva</label>
+                    <label><input type="radio" name="purpose" value="Website Suggestion" required> Sugerencia de Sitio Web</label>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="suscription">
+                        <input type="checkbox" id="suscription" name="suscription"> Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                </div>
+            </form>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="empty"></div>
+            <div class="text">
+                <p> ©2025 | Rapids Rafting Company | Anderson Angulo</p>
+            </div>
+            <div class="sociallinks">
+                <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+                </a>
+                <a href="https://tiktok.com">
+                <img src="images/tiktok.webp" alt="TikTok">
+                </a>
+                <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="Instagram">
+                </a>
+            </div>
+        </div>    
+    </footer>
+</body>
+
+</html>
