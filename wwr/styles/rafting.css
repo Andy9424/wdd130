@@ -239,13 +239,18 @@ footer {
 }
 
 .empty {
-    flex: 0.6;
+    flex: 0.2;
 }
 
+.wireframe{
+    flex: 0.2;
+    display: flex;
+    justify-content: flex-start;
+}
 .text {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .sociallinks {
